@@ -1,6 +1,7 @@
 import {MDBTable} from "mdb-react-ui-kit";
+import productList from "./productList";
 
-export default function AllProductTable({productList}) {
+export default function AllProductTable() {
     return (
         <div className={'TableContainer'}>
             <MDBTable
